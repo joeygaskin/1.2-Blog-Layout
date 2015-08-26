@@ -1,0 +1,114 @@
+html {
+
+}
+
+body {
+background-color: white;
+margin: 0px;
+font-size: 16px;
+line-height: 26px;
+font-family: 'PT Serif', serif;
+color: #666666;
+
+}
+
+.tiy-header {
+  background-image: url('images/tiyheader.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  margin: auto;
+
+}
+
+.content {
+    width: 575px;
+    position: absolute;
+    left: 380px;
+    top: 500px;
+}
+.content a {
+  color:#158cbd;
+}
+
+.entry-title,
+.entry-title a {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1em;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 35px;
+  color: #39474e;
+}
+
+
+
+.sidebar {
+  width: 190px;
+
+  position: absolute;
+  left: 130px;
+  top: 400px;
+
+}
+
+.sidebar img {
+  width: 100%;
+  height: auto;
+
+}
+
+.logo {
+display: inline-block;
+width: 96px;
+height: 96px;
+overflow: hidden;
+border-radius: 50%;
+margin-bottom: 20px;
+border: 5px solid white;
+background: white;
+}
+
+
+.sidebar-header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #666;
+}
+
+.sidebar-text {
+  font-family: 'PT Serif';
+  color: #aaa;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: normal;
+
+}
+
+.search-bar {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #bbb;
+  padding: 25px 0 0;
+    margin: 30px 0 0;
+    border-top: 1px solid #eeeeee;
+}
+
+.article {
+  text-align: center;
+}
+
+.floater {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
